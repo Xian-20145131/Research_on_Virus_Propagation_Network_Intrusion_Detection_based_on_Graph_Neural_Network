@@ -30,7 +30,7 @@ from utils.util import plot_confusion_matrix
 from utils.util import plot_recall
 from utils.util import setup_logger
 
-NAME_DIR: final = '01 - UNSW-NB15'
+NAME_DIR: final = '01 - CTU-13'
 
 
 def node_classification(dataset_path: str, binary, n_neigh, augmentation, hid, num_convs):
